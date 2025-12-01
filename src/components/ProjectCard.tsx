@@ -39,6 +39,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         e.currentTarget.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.05)";
       }}
     >
+      {/* Hero Banner - 16:9 ratio */}
+      <a href={project.url} target="_blank" rel="noopener noreferrer">
+        <div
+          style={{
+            width: "100%",
+            aspectRatio: "16/9",
+            borderRadius: "12px 12px 0 0",
+            overflow: "hidden",
+            marginBottom: 20,
+            backgroundColor: "#f5f5f5",
+            backgroundImage: `url(/img/${project.id}.jpg)`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            borderBottom: "1px solid #f0f0f0",
+          }}
+        />
+      </a>
+
       <div
         style={{
           display: "flex",
