@@ -62,6 +62,10 @@ body {
   border-radius: 50px 0 0 50px !important;
 }
 
+.warm-search > span.ant-input-affix-wrapper {
+  border: none !important;
+}
+
 .warm-search .ant-btn {
   height: 56px;
   border-radius: 0 50px 50px 0 !important;
