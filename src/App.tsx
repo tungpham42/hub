@@ -42,7 +42,12 @@ const App: React.FC = () => {
     <Layout className="layout">
       <Content style={{ padding: "0 50px", marginTop: 64 }}>
         <div style={{ margin: "20px 0", textAlign: "center" }}>
-          <Title level={1}>SOFT.io.vn Hub</Title>
+          <Title level={1}>
+            <a href="https://soft.io.vn" target="_blank" rel="noreferrer">
+              SOFT.io.vn
+            </a>{" "}
+            Hub
+          </Title>
           <Paragraph type="secondary" style={{ fontSize: "18px" }}>
             Discover our collection of tools, games, and resources
           </Paragraph>
