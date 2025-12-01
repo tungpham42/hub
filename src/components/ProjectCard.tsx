@@ -23,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         overflow: "hidden",
       }}
       bodyStyle={{
-        padding: 20,
+        padding: 0,
         height: "100%",
         display: "flex",
         flexDirection: "column",
@@ -46,7 +46,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             aspectRatio: "16/9",
             borderRadius: "12px 12px 0 0",
             overflow: "hidden",
-            marginBottom: 20,
+            marginBottom: 0,
             backgroundColor: "#f5f5f5",
             backgroundImage: `url(/img/${project.id}.jpg)`,
             backgroundSize: "cover",
@@ -63,6 +63,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           justifyContent: "space-between",
           alignItems: "flex-start",
           marginBottom: 12,
+          padding: "0 16px",
         }}
       >
         <div>
@@ -80,6 +81,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 display: "flex",
                 alignItems: "center",
                 gap: 8,
+                marginTop: 12,
               }}
             >
               {project.name}
@@ -93,7 +95,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </Title>
           </a>
         </div>
-        <div style={{ display: "flex", gap: 8 }}>
+        <div
+          style={{
+            display: "flex",
+            gap: 8,
+            marginTop: 12,
+          }}
+        >
           {project.featured && (
             <StarFilled
               style={{
@@ -110,6 +118,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         type="secondary"
         style={{
           margin: "12px 0",
+          padding: "0 16px",
           flex: 1,
           color: "#8D6E63",
           lineHeight: 1.6,
@@ -123,6 +132,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           style={{
             display: "flex",
             flexWrap: "wrap",
+            padding: "0 16px 16px 16px",
             gap: 8,
             marginBottom: 16,
           }}
