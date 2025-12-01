@@ -11,21 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <Card
-      hoverable
-      className="project-card"
-      style={{ height: "100%" }}
-      actions={[
-        <Button
-          type="link"
-          href={project.url}
-          target="_blank"
-          icon={<ArrowRightOutlined />}
-        >
-          Visit
-        </Button>,
-      ]}
-    >
+    <Card hoverable className="project-card" style={{ height: "100%" }}>
       <div
         style={{
           display: "flex",
