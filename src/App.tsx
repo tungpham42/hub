@@ -107,7 +107,8 @@ const App: React.FC = () => {
               <SearchOutlined
                 style={{ marginRight: 12, color: "var(--warm-primary)" }}
               />
-              Found {filteredProjects.length} cozy projects
+              Found {filteredProjects.length} cozy project
+              {filteredProjects.length > 1 ? "s" : ""}
             </Title>
             <Row gutter={[20, 20]}>
               {filteredProjects.map((project) => (
