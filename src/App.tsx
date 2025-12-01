@@ -4,6 +4,16 @@ import {
   SearchOutlined,
   StarOutlined,
   GlobalOutlined,
+  HeartOutlined,
+  CoffeeOutlined,
+  AppstoreOutlined,
+  RocketOutlined,
+  ToolOutlined,
+  BookOutlined,
+  UserOutlined,
+  VideoCameraOutlined,
+  BankOutlined,
+  CodeOutlined,
 } from "@ant-design/icons";
 import ProjectCard from "./components/ProjectCard";
 import CategorySection from "./components/CategorySection";
@@ -15,6 +25,16 @@ const { Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
 const { TabPane } = Tabs;
 const { Search } = Input;
+
+const iconMap: Record<string, React.ReactNode> = {
+  RocketOutlined: <RocketOutlined />,
+  ToolOutlined: <ToolOutlined />,
+  BookOutlined: <BookOutlined />,
+  UserOutlined: <UserOutlined />,
+  VideoCameraOutlined: <VideoCameraOutlined />,
+  BankOutlined: <BankOutlined />,
+  CodeOutlined: <CodeOutlined />,
+};
 
 const App: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -40,33 +60,56 @@ const App: React.FC = () => {
 
   return (
     <Layout className="layout">
-      <Content style={{ padding: "0 50px", marginTop: 64 }}>
-        <div style={{ margin: "20px 0", textAlign: "center" }}>
-          <Title level={1}>
-            <a href="https://soft.io.vn" target="_blank" rel="noreferrer">
+      <Content style={{ padding: "0 20px", marginTop: 40 }}>
+        {/* Warm & Cozy Header */}
+        <div className="warm-header" style={{ textAlign: "center" }}>
+          <Title level={1} style={{ color: "white", margin: 0 }}>
+            <a
+              href="https://soft.io.vn"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "white", textDecoration: "none" }}
+            >
+              <HeartOutlined style={{ marginRight: 12, color: "#FFE0B2" }} />
               SOFT.io.vn
             </a>{" "}
             Hub
           </Title>
-          <Paragraph type="secondary" style={{ fontSize: "18px" }}>
-            Discover our collection of tools, games, and resources
+          <Paragraph
+            style={{
+              color: "rgba(255, 255, 255, 0.9)",
+              fontSize: "18px",
+              margin: "12px 0 0",
+            }}
+          >
+            <CoffeeOutlined style={{ marginRight: 8 }} />
+            Discover our cozy collection of tools, games, and resources
           </Paragraph>
 
+          {/* Warm Search Box */}
           <Search
-            placeholder="Search projects..."
+            placeholder="Find something nice to explore..."
             allowClear
-            enterButton="Search"
+            enterButton={
+              <>
+                <SearchOutlined /> Search
+              </>
+            }
             size="large"
-            prefix={<SearchOutlined />}
-            style={{ maxWidth: "600px", margin: "30px auto" }}
+            className="warm-search"
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
 
         {searchQuery ? (
           <div style={{ margin: "40px 0" }}>
-            <Title level={2}>Search Results ({filteredProjects.length})</Title>
-            <Row gutter={[16, 16]}>
+            <Title level={2} style={{ color: "var(--warm-text)" }}>
+              <SearchOutlined
+                style={{ marginRight: 12, color: "var(--warm-primary)" }}
+              />
+              Found {filteredProjects.length} cozy projects
+            </Title>
+            <Row gutter={[20, 20]}>
               {filteredProjects.map((project) => (
                 <Col xs={24} sm={12} md={8} lg={6} key={project.id}>
                   <ProjectCard project={project} />
@@ -76,13 +119,28 @@ const App: React.FC = () => {
           </div>
         ) : (
           <>
-            {/* Featured Projects */}
+            {/* Featured Projects with warm styling */}
             {featuredProjects.length > 0 && (
               <div style={{ margin: "40px 0" }}>
-                <Title level={2}>
-                  <StarOutlined /> Featured Projects
+                <Title level={2} style={{ color: "var(--warm-text)" }}>
+                  <StarOutlined
+                    style={{
+                      marginRight: 12,
+                      color: "var(--warm-secondary)",
+                      background: "linear-gradient(45deg, #FFA726, #FF9800)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  />
+                  Featured & Lovely Projects
                 </Title>
-                <Row gutter={[16, 16]}>
+                <Paragraph
+                  type="secondary"
+                  style={{ fontSize: "16px", marginBottom: 24 }}
+                >
+                  Our hand-picked favorites, crafted with extra care
+                </Paragraph>
+                <Row gutter={[20, 20]}>
                   {featuredProjects.map((project) => (
                     <Col xs={24} sm={12} md={8} lg={6} key={project.id}>
                       <ProjectCard project={project} />
@@ -92,39 +150,82 @@ const App: React.FC = () => {
               </div>
             )}
 
-            {/* Categories */}
-            <Tabs defaultActiveKey="all" style={{ marginBottom: "40px" }}>
-              <TabPane tab="All Categories" key="all">
-                {projectsByCategory.map(({ category, projects }) => (
-                  <CategorySection
-                    key={category.id}
-                    category={category}
-                    projects={projects}
-                  />
-                ))}
-              </TabPane>
+            {/* Categories with warm tabs */}
+            <div
+              style={{
+                background: "white",
+                borderRadius: 20,
+                padding: 24,
+                boxShadow: "0 8px 32px rgba(255, 107, 107, 0.08)",
+              }}
+            >
+              <Title
+                level={3}
+                style={{ color: "var(--warm-text)", marginBottom: 24 }}
+              >
+                Browse by Category
+              </Title>
 
-              {categories.map((category) => (
-                <TabPane tab={category.name} key={category.id}>
-                  <CategorySection
-                    category={category}
-                    projects={filteredProjects.filter(
-                      (p) => p.category === category.id
-                    )}
-                  />
+              <Tabs
+                defaultActiveKey="all"
+                className="warm-tabs"
+                style={{ marginBottom: 24 }}
+              >
+                <TabPane
+                  tab={
+                    <span>
+                      <HeartOutlined /> All Categories
+                    </span>
+                  }
+                  key="all"
+                >
+                  <div style={{ marginTop: 24 }}>
+                    {projectsByCategory.map(({ category, projects }) => (
+                      <CategorySection
+                        key={category.id}
+                        category={category}
+                        projects={projects}
+                      />
+                    ))}
+                  </div>
                 </TabPane>
-              ))}
-            </Tabs>
+
+                {categories.map((category) => (
+                  <TabPane
+                    tab={
+                      <span>
+                        {iconMap[category.icon] || <AppstoreOutlined />}{" "}
+                        {category.name}
+                      </span>
+                    }
+                    key={category.id}
+                  >
+                    <div style={{ marginTop: 24 }}>
+                      <CategorySection
+                        category={category}
+                        projects={filteredProjects.filter(
+                          (p) => p.category === category.id
+                        )}
+                      />
+                    </div>
+                  </TabPane>
+                ))}
+              </Tabs>
+            </div>
           </>
         )}
       </Content>
 
-      <Footer style={{ textAlign: "center" }}>
-        <Paragraph>
-          <GlobalOutlined /> hub.soft.io.vn © {new Date().getFullYear()}
+      <Footer className="cozy-footer">
+        <Paragraph
+          style={{ color: "white", fontSize: "16px", marginBottom: 8 }}
+        >
+          <GlobalOutlined style={{ marginRight: 8 }} />
+          hub.soft.io.vn © {new Date().getFullYear()}
         </Paragraph>
-        <Paragraph type="secondary">
-          Collection of tools and resources from SOFT.io.vn ecosystem
+        <Paragraph style={{ color: "rgba(255, 255, 255, 0.8)", margin: 0 }}>
+          Made with <HeartOutlined style={{ color: "#FFE0B2" }} /> from the
+          SOFT.io.vn family
         </Paragraph>
       </Footer>
       <BackToTop />

@@ -5,7 +5,7 @@ export const categories: Category[] = [
     id: "games",
     name: "Games & Entertainment",
     description: "Fun and interactive games",
-    icon: "GamepadOutlined",
+    icon: "RocketOutlined",
   },
   {
     id: "tools",
@@ -35,7 +35,7 @@ export const categories: Category[] = [
     id: "business",
     name: "Business & Professional",
     description: "Professional and business tools",
-    icon: "BriefcaseOutlined",
+    icon: "BankOutlined",
   },
   {
     id: "development",
