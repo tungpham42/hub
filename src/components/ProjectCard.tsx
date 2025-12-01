@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, Tag, Typography, Button } from "antd";
-import { ArrowRightOutlined, StarFilled } from "@ant-design/icons";
+import { Card, Tag, Typography } from "antd";
+import { StarFilled } from "@ant-design/icons";
 import { Project } from "../types";
 
 const { Title, Paragraph } = Typography;
