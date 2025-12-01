@@ -12,7 +12,6 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <Card
-      hoverable
       className="project-card"
       style={{
         height: "100%",

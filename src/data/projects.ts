@@ -80,6 +80,14 @@ export const projects: Project[] = [
     category: "games",
     tags: ["puzzle", "matching", "colors"],
   },
+  {
+    id: "baucua",
+    name: "Bầu Cua",
+    url: "https://baucua.soft.io.vn",
+    description: "Traditional Vietnamese dice game",
+    category: "games",
+    tags: ["dice", "game", "traditional", "vietnamese"],
+  },
 
   // Utilities & Tools
   {
