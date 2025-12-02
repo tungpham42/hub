@@ -3,7 +3,7 @@ import { Card, Tag, Typography } from "antd";
 import { StarFilled, ArrowRightOutlined } from "@ant-design/icons";
 import { Project } from "../types";
 
-const { Title, Paragraph } = Typography;
+const { Title, Paragraph, Link } = Typography;
 
 interface ProjectCardProps {
   project: Project;
@@ -39,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       }}
     >
       {/* Hero Banner - 16:9 ratio */}
-      <a href={project.url} target="_blank" rel="noopener noreferrer">
+      <Link href={project.url} target="_blank" rel="noopener noreferrer">
         <div
           style={{
             width: "100%",
@@ -55,7 +55,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             borderBottom: "1px solid #f0f0f0",
           }}
         />
-      </a>
+      </Link>
 
       <div
         style={{
@@ -67,7 +67,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         }}
       >
         <div>
-          <a
+          <Link
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 }}
               />
             </Title>
-          </a>
+          </Link>
         </div>
         <div
           style={{

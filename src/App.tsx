@@ -22,7 +22,7 @@ import { projects, categories } from "./data/projects";
 import "./App.css";
 
 const { Content, Footer } = Layout;
-const { Title, Paragraph } = Typography;
+const { Title, Paragraph, Link } = Typography;
 const { TabPane } = Tabs;
 const { Search } = Input;
 
@@ -64,16 +64,21 @@ const App: React.FC = () => {
         {/* Warm & Cozy Header */}
         <div className="warm-header" style={{ textAlign: "center" }}>
           <Title level={1} style={{ color: "white", margin: 0 }}>
-            <a
+            <HeartOutlined style={{ marginRight: 12, color: "#FFE0B2" }} />
+            <Link
               href="https://soft.io.vn"
               target="_blank"
-              rel="noreferrer"
-              style={{ color: "white", textDecoration: "none" }}
+              rel="noopener noreferrer"
+              style={{
+                color: "white",
+                textDecoration: "none",
+                cursor: "pointer",
+                fontSize: "38px",
+              }}
             >
-              <HeartOutlined style={{ marginRight: 12, color: "#FFE0B2" }} />
               SOFT.io.vn
-            </a>{" "}
-            Hub
+            </Link>
+            <span style={{ marginLeft: 8 }}>Hub</span>
           </Title>
           <Paragraph
             style={{
