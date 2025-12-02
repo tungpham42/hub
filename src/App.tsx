@@ -70,7 +70,7 @@ const App: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: "white",
+                color: "#FFE0B2",
                 textDecoration: "none",
                 cursor: "pointer",
                 fontSize: "38px",
