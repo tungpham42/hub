@@ -60,7 +60,7 @@ const App: React.FC = () => {
 
   return (
     <Layout className="layout">
-      <Content style={{ padding: "0 20px", marginTop: 40 }}>
+      <Content style={{ padding: "0 20px" }}>
         {/* Warm & Cozy Header */}
         <div className="warm-header" style={{ textAlign: "center" }}>
           <Title level={1} style={{ color: "white", margin: 0 }}>
