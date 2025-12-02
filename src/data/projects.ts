@@ -74,7 +74,7 @@ export const projects: Project[] = [
   },
   {
     id: "lines",
-    name: "Lines Game",
+    name: "Lines 98",
     url: "https://lines.soft.io.vn",
     description: "Color matching puzzle game",
     category: "games",
