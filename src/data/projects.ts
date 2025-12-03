@@ -86,7 +86,7 @@ export const projects: Project[] = [
     url: "https://baucua.soft.io.vn",
     description: "Traditional Vietnamese dice game",
     category: "games",
-    tags: ["dice", "game", "traditional", "vietnamese"],
+    tags: ["dice", "game", "traditional", "vietnamese", "lucky"],
   },
 
   // Utilities & Tools

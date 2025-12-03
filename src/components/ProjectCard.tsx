@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Tag, Typography } from "antd";
+import { Card, Tag, Typography, Tooltip } from "antd";
 import { StarFilled, ArrowRightOutlined } from "@ant-design/icons";
 import { Project } from "../types";
 
@@ -155,16 +155,37 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </Tag>
           ))}
           {project.tags.length > 3 && (
-            <Tag
-              style={{
-                background: "rgba(255, 107, 107, 0.1)",
-                color: "var(--warm-primary)",
-                borderRadius: 20,
-                border: "none",
+            <Tooltip
+              title={
+                <div>
+                  {project.tags.slice(3).map((tag, index) => (
+                    <div key={index}>{tag}</div>
+                  ))}
+                </div>
+              }
+              placement="top"
+              color="white"
+              overlayStyle={{
+                maxWidth: 200,
+              }}
+              overlayInnerStyle={{
+                color: "#5D4037",
+                padding: "8px 12px",
               }}
             >
-              +{project.tags.length - 3}
-            </Tag>
+              <Tag
+                style={{
+                  background: "rgba(255, 107, 107, 0.1)",
+                  color: "var(--warm-primary)",
+                  borderRadius: 20,
+                  border: "none",
+                  cursor: "pointer",
+                  padding: "4px 8px",
+                }}
+              >
+                +{project.tags.length - 3}
+              </Tag>
+            </Tooltip>
           )}
         </div>
       </div>
