@@ -93,7 +93,7 @@ export const projects: Project[] = [
   {
     id: "color",
     name: "Color Tools",
-    url: "https://color.soft.io.vn",
+    url: "https://colortool.soft.io.vn",
     description: "Color palette generator and tools",
     category: "tools",
     tags: ["design", "colors", "palette"],
