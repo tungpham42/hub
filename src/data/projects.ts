@@ -201,6 +201,14 @@ export const projects: Project[] = [
     category: "learning",
     tags: ["physics", "science", "simulation"],
   },
+  {
+    id: "tratu",
+    name: "Từ điển tiếng Việt",
+    url: "https://tratu.soft.io.vn",
+    description: "Vietnamese dictionary",
+    category: "learning",
+    tags: ["education", "learning", "dictionary", "vietnamese"],
+  },
 
   // Lifestyle & Personal
   {
