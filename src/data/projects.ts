@@ -165,6 +165,15 @@ export const projects: Project[] = [
     category: "tools",
     tags: ["earthquake", "data", "information"],
   },
+  {
+    id: "pc",
+    name: "PC Builder",
+    url: "https://pc.soft.io.vn",
+    description: "Build your dream PC with ease",
+    category: "tools",
+    tags: ["pc", "building", "guide"],
+    featured: true,
+  },
 
   // Learning & Education
   {
@@ -385,7 +394,6 @@ export const projects: Project[] = [
     description: "Foreign exchange trading tools",
     category: "business",
     tags: ["forex", "trading", "finance"],
-    featured: true,
   },
   {
     id: "luong",
