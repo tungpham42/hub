@@ -333,6 +333,14 @@ export const projects: Project[] = [
     category: "lifestyle",
     tags: ["wedding", "planning", "events"],
   },
+  {
+    id: "tienmung",
+    name: "Tính Tiền Mừng",
+    url: "https://tienmung.soft.io.vn",
+    description: "Wedding gift money calculator",
+    category: "lifestyle",
+    tags: ["wedding", "gift", "money", "calculator"],
+  },
 
   // Media & Content
   {
@@ -371,6 +379,14 @@ export const projects: Project[] = [
   },
 
   // Business & Professional
+  {
+    id: "seo",
+    name: "SEO Tools",
+    url: "https://seo.soft.io.vn",
+    description: "Search Engine Optimization utilities",
+    category: "business",
+    tags: ["seo", "marketing", "ranking", "web"],
+  },
   {
     id: "cv",
     name: "CV Builder",
