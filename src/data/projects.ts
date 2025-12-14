@@ -194,6 +194,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "dict",
+    name: "English Dictionary",
+    url: "https://dict.soft.io.vn",
+    description: "English online dictionary",
+    category: "learning",
+    tags: ["dictionary", "language", "translation", "learning"],
+  },
+  {
     id: "hoc",
     name: "Học Lập Trình",
     url: "https://hoc.soft.io.vn",
