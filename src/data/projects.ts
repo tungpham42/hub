@@ -359,7 +359,7 @@ export const projects: Project[] = [
   {
     id: "tienmung",
     name: "Tính Tiền Mừng",
-    url: "https://tienmung.soft.io.vn",
+    url: "https://cuoi.soft.io.vn",
     description: "Wedding gift money calculator",
     category: "lifestyle",
     tags: ["wedding", "gift", "money", "calculator"],
