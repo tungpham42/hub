@@ -390,7 +390,6 @@ export const projects: Project[] = [
     description: "Travel and adventure guides",
     category: "media",
     tags: ["travel", "adventure", "guides"],
-    featured: true,
   },
   {
     id: "chill",
@@ -402,6 +401,15 @@ export const projects: Project[] = [
   },
 
   // Business & Professional
+  {
+    id: "car",
+    name: "Car Insurance Quotes",
+    url: "https://car.soft.io.vn",
+    description: "Car Insurance Quotes Calculator",
+    category: "business",
+    tags: ["car", "vehicle", "automotive", "insurance", "quotes"],
+    featured: true,
+  },
   {
     id: "seo",
     name: "SEO Tools",
