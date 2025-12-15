@@ -202,6 +202,21 @@ export const projects: Project[] = [
     tags: ["dictionary", "language", "translation", "learning"],
   },
   {
+    id: "tudien",
+    name: "Từ điển Anh Việt",
+    url: "https://tudien.soft.io.vn",
+    description: "English Vietnamese dictionary",
+    category: "learning",
+    tags: [
+      "dictionary",
+      "language",
+      "translation",
+      "learning",
+      "english",
+      "vietnamese",
+    ],
+  },
+  {
     id: "hoc",
     name: "Học Lập Trình",
     url: "https://hoc.soft.io.vn",
