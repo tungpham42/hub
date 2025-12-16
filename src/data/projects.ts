@@ -402,6 +402,15 @@ export const projects: Project[] = [
 
   // Business & Professional
   {
+    id: "baohiem",
+    name: "Cổng Bảo Hiểm",
+    url: "https://baohiem.soft.io.vn",
+    description: "Insurance portal and information",
+    category: "business",
+    tags: ["insurance", "calculator", "finance", "policy"],
+    featured: true,
+  },
+  {
     id: "car",
     name: "Car Insurance Quotes",
     url: "https://car.soft.io.vn",
@@ -449,7 +458,6 @@ export const projects: Project[] = [
     description: "Salary calculator",
     category: "business",
     tags: ["salary", "calculator", "finance"],
-    featured: true,
   },
 
   // Development & Tech
