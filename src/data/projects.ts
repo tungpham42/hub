@@ -428,6 +428,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "hr",
+    name: "SOFT HR",
+    url: "https://hr.soft.io.vn",
+    description: "Applicant Tracking System",
+    category: "business",
+    tags: ["hr", "applicant", "tracking"],
+  },
+  {
     id: "seo",
     name: "SEO Tools",
     url: "https://seo.soft.io.vn",
