@@ -241,6 +241,14 @@ export const projects: Project[] = [
     category: "learning",
     tags: ["education", "learning", "dictionary", "vietnamese"],
   },
+  {
+    id: "ja",
+    name: "Sổ tay tiếng Nhật",
+    url: "https://ja.soft.io.vn",
+    description: "Japanese guideline",
+    category: "learning",
+    tags: ["education", "learning", "japanese"],
+  },
 
   // Lifestyle & Personal
   {
