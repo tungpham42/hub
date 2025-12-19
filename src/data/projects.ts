@@ -372,6 +372,14 @@ export const projects: Project[] = [
     category: "lifestyle",
     tags: ["wedding", "gift", "money", "calculator"],
   },
+  {
+    id: "luongcuc",
+    name: "Lưỡng Cực",
+    url: "https://luongcuc.soft.io.vn",
+    description: "Bipolar Disorder Information",
+    category: "lifestyle",
+    tags: ["bipolar", "disorder", "mania", "depression"],
+  },
 
   // Media & Content
   {
