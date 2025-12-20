@@ -252,6 +252,14 @@ export const projects: Project[] = [
 
   // Lifestyle & Personal
   {
+    id: "genz",
+    name: "Từ điển Gen Z",
+    url: "https://genz.soft.io.vn",
+    description: "Generation Z Dictionary",
+    category: "lifestyle",
+    tags: ["genz", "dictionary", "fun"],
+  },
+  {
     id: "bmi",
     name: "BMI Calculator",
     url: "https://bmi.soft.io.vn",
