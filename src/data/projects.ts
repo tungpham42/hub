@@ -252,6 +252,22 @@ export const projects: Project[] = [
 
   // Lifestyle & Personal
   {
+    id: "iq",
+    name: "Kiểm tra IQ",
+    url: "https://iq.soft.io.vn",
+    description: "IQ Test",
+    category: "lifestyle",
+    tags: ["iq", "test", "question"],
+  },
+  {
+    id: "eq",
+    name: "Kiểm tra EQ",
+    url: "https://eq.soft.io.vn",
+    description: "EQ Test",
+    category: "lifestyle",
+    tags: ["eq", "test", "question"],
+  },
+  {
     id: "genz",
     name: "Từ điển Gen Z",
     url: "https://genz.soft.io.vn",
