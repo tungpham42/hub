@@ -249,6 +249,14 @@ export const projects: Project[] = [
     category: "learning",
     tags: ["education", "learning", "japanese"],
   },
+  {
+    id: "thai",
+    name: "Học tiếng Thái",
+    url: "https://thai.soft.io.vn",
+    description: "Thai learning platform",
+    category: "learning",
+    tags: ["education", "learning", "thailand"],
+  },
 
   // Lifestyle & Personal
   {
