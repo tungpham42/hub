@@ -174,6 +174,14 @@ export const projects: Project[] = [
     tags: ["pc", "building", "guide"],
     featured: true,
   },
+  {
+    id: "thoitiet",
+    name: "Dự báo thời tiết",
+    url: "https://thoitiet.soft.io.vn",
+    description: "Weather forecast for Vietnam's provinces",
+    category: "tools",
+    tags: ["weather", "forecast", "vietnam"],
+  },
 
   // Learning & Education
   {
