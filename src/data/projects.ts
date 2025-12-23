@@ -65,6 +65,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "covay",
+    name: "Cờ Vây",
+    url: "https://covay.soft.io.vn",
+    description: "Go game",
+    category: "games",
+    tags: ["go", "game", "strategy", "boardgame"],
+  },
+  {
     id: "caro",
     name: "Caro Game",
     url: "https://caro.soft.io.vn",
