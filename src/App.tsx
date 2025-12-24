@@ -24,7 +24,6 @@ import "./App.css";
 const { Content, Footer } = Layout;
 const { Title, Paragraph, Link } = Typography;
 const { TabPane } = Tabs;
-const { Search } = Input;
 
 const iconMap: Record<string, React.ReactNode> = {
   RocketOutlined: <RocketOutlined />,
@@ -91,14 +90,19 @@ const App: React.FC = () => {
             Discover our cozy collection of tools, games, and resources
           </Paragraph>
 
-          {/* Warm Search Box */}
-          <Search
+          {/* Warm Search Box - Redesigned */}
+          <Input
             placeholder="Find something nice to explore..."
             allowClear
-            enterButton={
-              <>
-                <SearchOutlined /> Search
-              </>
+            autoFocus
+            prefix={
+              <SearchOutlined
+                style={{
+                  fontSize: "22px",
+                  color: "var(--warm-primary)",
+                  marginRight: "10px",
+                }}
+              />
             }
             size="large"
             className="warm-search"

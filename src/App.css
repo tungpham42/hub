@@ -39,38 +39,57 @@ body {
   overflow: hidden;
 }
 
-/* Search box styling */
+/* --- Search box styling (REDESIGNED) --- */
 .warm-search {
   max-width: 600px;
   margin: 30px auto;
+  /* The wrapper itself acts as the pill now */
   border-radius: 50px !important;
   overflow: hidden;
   box-shadow: 0 4px 20px var(--soft-shadow);
   border: 2px solid var(--soft-border) !important;
+  background-color: white !important;
+  padding: 10px 24px !important; /* Added padding to center contents */
+  transition: all 0.3s ease;
 }
 
-.warm-search .ant-input {
-  padding: 16px 24px;
-  font-size: 16px;
-  border-radius: 50px 0 0 50px !important;
-}
-
-.warm-search > span.ant-input-affix-wrapper {
-  border: none !important;
-}
-
-.warm-search .ant-btn {
-  height: 56px;
-  border-radius: 0 50px 50px 0 !important;
-  background: var(--gradient-warm) !important;
-  border: none !important;
-  font-weight: 600;
-}
-
-.warm-search .ant-btn:hover {
+/* Focus/Hover state for the search container */
+.warm-search:hover,
+.warm-search:focus-within {
+  border-color: var(--warm-primary) !important;
+  box-shadow: 0 6px 25px rgba(255, 107, 107, 0.25);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.3);
 }
+
+/* The actual input field inside */
+.warm-search input.ant-input {
+  font-size: 18px;
+  background: transparent !important;
+  color: var(--warm-text);
+}
+
+/* The clear icon and other suffixes */
+.warm-search .ant-input-suffix {
+  margin-left: 10px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .warm-header {
+    padding: 30px 15px !important;
+    margin: 10px 0 30px !important;
+  }
+
+  .warm-search {
+    margin: 20px auto;
+    padding: 8px 16px !important;
+  }
+
+  .warm-search input.ant-input {
+    font-size: 16px;
+  }
+}
+/* --- End Search Box --- */
 
 /* Tabs styling */
 .warm-tabs .ant-tabs-nav {
@@ -120,24 +139,4 @@ body {
   padding: 40px 20px !important;
   margin-top: 60px !important;
   border-radius: 20px 20px 0 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .warm-header {
-    padding: 30px 15px !important;
-    margin: 10px 0 30px !important;
-  }
-
-  .warm-search {
-    margin: 20px auto;
-  }
-
-  .warm-search .ant-input {
-    padding: 12px 20px;
-  }
-
-  .warm-search .ant-btn {
-    height: 48px;
-  }
 }
