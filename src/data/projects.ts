@@ -273,6 +273,14 @@ export const projects: Project[] = [
     category: "learning",
     tags: ["education", "learning", "thailand"],
   },
+  {
+    id: "book",
+    name: "Open Library",
+    url: "https://book.soft.io.vn",
+    description: "Open library for books and reading",
+    category: "learning",
+    tags: ["education", "learning", "books"],
+  },
 
   // Lifestyle & Personal
   {
