@@ -122,7 +122,8 @@ const App: React.FC = () => {
             <Row gutter={[20, 20]}>
               {filteredProjects.map((project) => (
                 <Col xs={24} sm={12} md={8} lg={6} key={project.id}>
-                  <ProjectCard project={project} />
+                  {/* Pass searchQuery here */}
+                  <ProjectCard project={project} searchQuery={searchQuery} />
                 </Col>
               ))}
             </Row>
@@ -153,7 +154,11 @@ const App: React.FC = () => {
                 <Row gutter={[20, 20]}>
                   {featuredProjects.map((project) => (
                     <Col xs={24} sm={12} md={8} lg={6} key={project.id}>
-                      <ProjectCard project={project} />
+                      {/* Pass searchQuery here (even if empty initially, for consistency) */}
+                      <ProjectCard
+                        project={project}
+                        searchQuery={searchQuery}
+                      />
                     </Col>
                   ))}
                 </Row>
@@ -195,6 +200,7 @@ const App: React.FC = () => {
                         key={category.id}
                         category={category}
                         projects={projects}
+                        searchQuery={searchQuery} // Pass searchQuery
                       />
                     ))}
                   </div>
@@ -216,6 +222,7 @@ const App: React.FC = () => {
                         projects={filteredProjects.filter(
                           (p) => p.category === category.id
                         )}
+                        searchQuery={searchQuery} // Pass searchQuery
                       />
                     </div>
                   </TabPane>

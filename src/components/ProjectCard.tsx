@@ -7,9 +7,45 @@ const { Title, Paragraph, Link } = Typography;
 
 interface ProjectCardProps {
   project: Project;
+  searchQuery?: string; // Added prop
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  project,
+  searchQuery = "",
+}) => {
+  // Helper to highlight text
+  const getHighlightedText = (text: string, highlight: string) => {
+    if (!highlight.trim()) return text;
+
+    // Escape special regex characters to prevent errors
+    const escapedHighlight = highlight.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const parts = text.split(new RegExp(`(${escapedHighlight})`, "gi"));
+
+    return (
+      <span>
+        {parts.map((part, i) =>
+          part.toLowerCase() === highlight.toLowerCase() ? (
+            <span
+              key={i}
+              style={{
+                backgroundColor: "#ffec3d", // Warm yellow highlight
+                color: "#5a3a22", // Dark brown text for contrast
+                borderRadius: "2px",
+                padding: "0 2px",
+                boxShadow: "0 1px 2px rgba(0,0,0,0.1)",
+              }}
+            >
+              {part}
+            </span>
+          ) : (
+            part
+          )
+        )}
+      </span>
+    );
+  };
+
   return (
     <Card
       className="project-card"
@@ -22,11 +58,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         transition: "all 0.3s ease",
         overflow: "hidden",
       }}
-      bodyStyle={{
-        padding: 0,
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
+      styles={{
+        body: {
+          padding: 0,
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+        },
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.transform = "translateY(-4px)";
@@ -84,7 +122,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 marginTop: 12,
               }}
             >
-              {project.name}
+              {getHighlightedText(project.name, searchQuery)}
               <ArrowRightOutlined
                 style={{
                   fontSize: "14px",
@@ -124,7 +162,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           lineHeight: 1.6,
         }}
       >
-        {project.description}
+        {getHighlightedText(project.description, searchQuery)}
       </Paragraph>
 
       <div style={{ marginTop: "auto", paddingTop: 16 }}>
@@ -151,7 +189,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 fontWeight: 500,
               }}
             >
-              {tag}
+              {getHighlightedText(tag, searchQuery)}
             </Tag>
           ))}
           {project.tags.length > 3 && (
@@ -159,7 +197,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               title={
                 <div>
                   {project.tags.slice(3).map((tag, index) => (
-                    <div key={index}>{tag}</div>
+                    <div key={index}>
+                      {getHighlightedText(tag, searchQuery)}
+                    </div>
                   ))}
                 </div>
               }

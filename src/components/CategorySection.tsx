@@ -18,6 +18,7 @@ const { Title, Paragraph } = Typography;
 interface CategorySectionProps {
   category: Category;
   projects: Project[];
+  searchQuery?: string; // Added prop
 }
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -33,6 +34,7 @@ const iconMap: Record<string, React.ReactNode> = {
 const CategorySection: React.FC<CategorySectionProps> = ({
   category,
   projects,
+  searchQuery,
 }) => {
   if (projects.length === 0) return null;
 
@@ -46,7 +48,7 @@ const CategorySection: React.FC<CategorySectionProps> = ({
         background: "linear-gradient(135deg, #FFFFFF 0%, #FFF9F2 100%)",
         overflow: "hidden",
       }}
-      bodyStyle={{ padding: 24 }}
+      styles={{ body: { padding: 24 } }}
     >
       <div style={{ display: "flex", alignItems: "center", marginBottom: 20 }}>
         <div
@@ -79,7 +81,8 @@ const CategorySection: React.FC<CategorySectionProps> = ({
         <Row gutter={[20, 20]}>
           {projects.map((project) => (
             <Col xs={24} sm={12} md={8} lg={6} key={project.id}>
-              <ProjectCard project={project} />
+              {/* Pass searchQuery to ProjectCard */}
+              <ProjectCard project={project} searchQuery={searchQuery} />
             </Col>
           ))}
         </Row>
