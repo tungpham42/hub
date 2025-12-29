@@ -436,6 +436,14 @@ export const projects: Project[] = [
     category: "lifestyle",
     tags: ["bipolar", "disorder", "mania", "depression"],
   },
+  {
+    id: "celeb",
+    name: "Celeb Profiles",
+    url: "https://celeb.soft.io.vn",
+    description: "Celebrity profiles and information",
+    category: "lifestyle",
+    tags: ["celebrities", "profiles", "entertainment"],
+  },
 
   // Media & Content
   {
