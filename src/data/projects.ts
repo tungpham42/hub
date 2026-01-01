@@ -108,6 +108,15 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "chat",
+    name: "Trợ lý Việt",
+    url: "https://chat.soft.io.vn",
+    description: "AI chat assistant for Vietnamese",
+    category: "tools",
+    tags: ["ai", "chat", "assistant", "vietnamese"],
+    featured: true,
+  },
+  {
     id: "css",
     name: "CSS Tools",
     url: "https://css.soft.io.vn",
@@ -453,7 +462,6 @@ export const projects: Project[] = [
     description: "Movie streaming platform",
     category: "media",
     tags: ["movies", "streaming", "video"],
-    featured: true,
   },
   {
     id: "monan",
