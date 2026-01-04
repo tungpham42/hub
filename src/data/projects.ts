@@ -516,6 +516,14 @@ export const projects: Project[] = [
     tags: ["car", "vehicle", "automotive", "insurance", "quotes"],
   },
   {
+    id: "adsense",
+    name: "AdSense Analyzer",
+    url: "https://adsense.soft.io.vn",
+    description: "AdSense performance analyzer",
+    category: "business",
+    tags: ["adsense", "analytics", "advertising"],
+  },
+  {
     id: "hr",
     name: "SOFT HR",
     url: "https://hr.soft.io.vn",
