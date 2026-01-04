@@ -117,6 +117,15 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "gsc",
+    name: "Search Analyzer",
+    url: "https://gsc.soft.io.vn",
+    description: "Google Search Console analyzer",
+    category: "tools",
+    tags: ["google", "search", "console", "analytics"],
+    featured: true,
+  },
+  {
     id: "css",
     name: "CSS Tools",
     url: "https://css.soft.io.vn",
@@ -505,7 +514,6 @@ export const projects: Project[] = [
     description: "Car Insurance Quotes Calculator",
     category: "business",
     tags: ["car", "vehicle", "automotive", "insurance", "quotes"],
-    featured: true,
   },
   {
     id: "hr",
