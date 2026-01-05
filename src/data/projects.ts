@@ -65,6 +65,15 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "xemboi",
+    name: "Xem Bói",
+    url: "https://boi.cotuong.top",
+    description: "Traditional Vietnamese fortune telling",
+    category: "games",
+    tags: ["fortune", "traditional", "vietnamese", "divination"],
+    featured: true,
+  },
+  {
     id: "covay",
     name: "Cờ Vây",
     url: "https://covay.soft.io.vn",
@@ -257,7 +266,6 @@ export const projects: Project[] = [
     description: "General learning platform and educational resources",
     category: "learning",
     tags: ["education", "learning", "courses"],
-    featured: true,
   },
   {
     id: "vatly",
@@ -574,6 +582,15 @@ export const projects: Project[] = [
 
   // Development & Tech
   {
+    id: "vibe",
+    name: "Vibe Coding",
+    url: "https://vibe.soft.io.vn",
+    description: "Coding practice and challenges",
+    category: "development",
+    tags: ["coding", "practice", "challenges"],
+    featured: true,
+  },
+  {
     id: "data",
     name: "Data Tools",
     url: "https://data.soft.io.vn",
@@ -596,6 +613,5 @@ export const projects: Project[] = [
     description: "Image editing and processing",
     category: "development",
     tags: ["images", "editing", "tools"],
-    featured: true,
   },
 ];
