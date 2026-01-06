@@ -98,6 +98,14 @@ export const projects: Project[] = [
     tags: ["puzzle", "matching", "colors"],
   },
   {
+    id: "dovui",
+    name: "Đố Vui Siêu Nhí",
+    url: "https://dovui.soft.io.vn",
+    description: "Quiz for Children",
+    category: "games",
+    tags: ["children", "quiz", "game"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
