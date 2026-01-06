@@ -220,6 +220,14 @@ export const projects: Project[] = [
 
   // Learning & Education
   {
+    id: "ielts",
+    name: "IELTS Preparation",
+    url: "https://ielts.soft.io.vn",
+    description: "IELTS Exam Preparation with AI",
+    category: "learning",
+    tags: ["ielts", "preparation", "learning"],
+  },
+  {
     id: "math",
     name: "Math Tools",
     url: "https://math.soft.io.vn",
