@@ -226,6 +226,7 @@ export const projects: Project[] = [
     description: "IELTS Exam Preparation with AI",
     category: "learning",
     tags: ["ielts", "preparation", "learning"],
+    featured: true,
   },
   {
     id: "math",
@@ -596,7 +597,6 @@ export const projects: Project[] = [
     description: "Coding practice and challenges",
     category: "development",
     tags: ["coding", "practice", "challenges"],
-    featured: true,
   },
   {
     id: "data",
