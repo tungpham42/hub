@@ -140,7 +140,6 @@ export const projects: Project[] = [
     description: "Google Search Console analyzer",
     category: "tools",
     tags: ["google", "search", "console", "analytics"],
-    featured: true,
   },
   {
     id: "css",
