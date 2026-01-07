@@ -524,6 +524,15 @@ export const projects: Project[] = [
 
   // Business & Professional
   {
+    id: "thue",
+    name: "Thuế TNCN",
+    url: "https://thue.soft.io.vn",
+    description: "Personal tax calculator",
+    category: "business",
+    tags: ["tax", "calculator", "finance", "ai"],
+    featured: true,
+  },
+  {
     id: "baohiem",
     name: "Cổng Bảo Hiểm",
     url: "https://baohiem.soft.io.vn",
