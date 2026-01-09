@@ -236,6 +236,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "hsk",
+    name: "HSK Preparation",
+    url: "https://hsk.soft.io.vn",
+    description: "HSK Exam Preparation with AI",
+    category: "learning",
+    tags: ["hsk", "preparation", "learning"],
+  },
+  {
     id: "math",
     name: "Math Tools",
     url: "https://math.soft.io.vn",
