@@ -334,6 +334,14 @@ export const projects: Project[] = [
 
   // Lifestyle & Personal
   {
+    id: "xemngay",
+    name: "Xem ngày tốt xấu",
+    url: "https://xemngay.soft.io.vn",
+    description: "Ngọc Hạp Thông Thư",
+    category: "lifestyle",
+    tags: ["prediction", "forecast", "mystery"],
+  },
+  {
     id: "iq",
     name: "Kiểm tra IQ",
     url: "https://iq.soft.io.vn",
