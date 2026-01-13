@@ -334,6 +334,15 @@ export const projects: Project[] = [
 
   // Lifestyle & Personal
   {
+    id: "thucdon",
+    name: "Gợi ý món ăn",
+    url: "https://thucdon.soft.io.vn",
+    description: "Meal planner",
+    category: "lifestyle",
+    tags: ["meal", "dish", "food"],
+    featured: true,
+  },
+  {
     id: "xemngay",
     name: "Xem ngày tốt xấu",
     url: "https://xemngay.soft.io.vn",
@@ -545,7 +554,6 @@ export const projects: Project[] = [
     description: "Personal tax calculator",
     category: "business",
     tags: ["tax", "calculator", "finance", "ai"],
-    featured: true,
   },
   {
     id: "baohiem",
