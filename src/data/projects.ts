@@ -343,6 +343,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "astro",
+    name: "Astrology",
+    url: "https://astro.soft.io.vn",
+    description: "Celestial Guide",
+    category: "lifestyle",
+    tags: ["astrology", "celestial", "guide"],
+  },
+  {
     id: "xemngay",
     name: "Xem ngày tốt xấu",
     url: "https://xemngay.soft.io.vn",
