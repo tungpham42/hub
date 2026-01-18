@@ -156,7 +156,6 @@ export const projects: Project[] = [
     description: "QR code generator and scanner",
     category: "tools",
     tags: ["qr", "generator", "scanner"],
-    featured: true,
   },
   {
     id: "text",
@@ -638,6 +637,15 @@ export const projects: Project[] = [
   },
 
   // Development & Tech
+  {
+    id: "freelance",
+    name: "Freelancer Flow",
+    url: "https://freelance.soft.io.vn",
+    description: "Freelancers' Assistant",
+    category: "development",
+    tags: ["freelancer", "job", "assistant"],
+    featured: true,
+  },
   {
     id: "vibe",
     name: "Vibe Coding",
