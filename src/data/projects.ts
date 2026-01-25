@@ -235,6 +235,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "laixe",
+    name: "Luyện thi Lái xe",
+    url: "https://laixe.soft.io.vn",
+    description: "Driving license preparation",
+    category: "learning",
+    tags: ["driving", "license", "preparation"],
+  },
+  {
     id: "hsk",
     name: "HSK Preparation",
     url: "https://hsk.soft.io.vn",
