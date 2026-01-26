@@ -526,6 +526,14 @@ export const projects: Project[] = [
     category: "lifestyle",
     tags: ["celebrities", "profiles", "entertainment"],
   },
+  {
+    id: "tuvi",
+    name: "Xem Tử Vi",
+    url: "https://tuvi.soft.io.vn",
+    description: "Horoscope and fortune telling",
+    category: "lifestyle",
+    tags: ["horoscope", "fortune", "astrology"],
+  },
 
   // Media & Content
   {
