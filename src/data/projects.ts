@@ -338,6 +338,14 @@ export const projects: Project[] = [
     category: "learning",
     tags: ["education", "learning", "books"],
   },
+  {
+    id: "nipah",
+    name: "Nipah Virus Information",
+    url: "https://nipah.soft.io.vn",
+    description: "Information about Nipah virus and prevention",
+    category: "learning",
+    tags: ["health", "disease", "virus"],
+  },
 
   // Lifestyle & Personal
   {
