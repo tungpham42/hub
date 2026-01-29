@@ -358,6 +358,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "qua",
+    name: "Tư vấn quà tặng",
+    url: "https://qua.soft.io.vn",
+    description: "Gift recommendation",
+    category: "lifestyle",
+    tags: ["gift", "recommendation", "shopping"],
+  },
+  {
     id: "astro",
     name: "Astrology",
     url: "https://astro.soft.io.vn",
