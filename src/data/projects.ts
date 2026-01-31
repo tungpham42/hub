@@ -71,7 +71,6 @@ export const projects: Project[] = [
     description: "Traditional Vietnamese fortune telling",
     category: "games",
     tags: ["fortune", "traditional", "vietnamese", "divination"],
-    featured: true,
   },
   {
     id: "covay",
