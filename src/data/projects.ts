@@ -226,6 +226,15 @@ export const projects: Project[] = [
 
   // Learning & Education
   {
+    id: "triet",
+    name: "Triết học AI",
+    url: "https://triet.soft.io.vn",
+    description: "AI-powered philosophy learning platform",
+    category: "learning",
+    tags: ["ai", "philosophy", "learning"],
+    featured: true,
+  },
+  {
     id: "ielts",
     name: "IELTS Preparation",
     url: "https://ielts.soft.io.vn",
