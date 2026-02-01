@@ -695,6 +695,14 @@ export const projects: Project[] = [
     tags: ["coding", "practice", "challenges"],
   },
   {
+    id: "marketingplan",
+    name: "Marketing Plan Generator",
+    url: "https://marketingplan.soft.io.vn",
+    description: "Marketing plan and strategy tools",
+    category: "development",
+    tags: ["marketing", "strategy", "planning"],
+  },
+  {
     id: "dulieu",
     name: "Phân Tích Dữ Liệu",
     url: "https://dulieu.soft.io.vn",
