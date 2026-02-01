@@ -695,6 +695,14 @@ export const projects: Project[] = [
     tags: ["coding", "practice", "challenges"],
   },
   {
+    id: "dulieu",
+    name: "Phân Tích Dữ Liệu",
+    url: "https://dulieu.soft.io.vn",
+    description: "Data Insights and analysis",
+    category: "development",
+    tags: ["data", "analysis", "processing"],
+  },
+  {
     id: "data",
     name: "Data Tools",
     url: "https://data.soft.io.vn",
