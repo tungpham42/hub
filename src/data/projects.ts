@@ -697,7 +697,7 @@ export const projects: Project[] = [
   {
     id: "marketingplan",
     name: "Marketing Plan Generator",
-    url: "https://marketingplan.soft.io.vn",
+    url: "https://mktplan.soft.io.vn",
     description: "Marketing plan and strategy tools",
     category: "development",
     tags: ["marketing", "strategy", "planning"],
