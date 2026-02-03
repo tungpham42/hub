@@ -248,6 +248,14 @@ export const projects: Project[] = [
     description: "IELTS Exam Preparation with AI",
     category: "learning",
     tags: ["ielts", "preparation", "learning"],
+  },
+  {
+    id: "van",
+    name: "Trợ lý Văn Học",
+    url: "https://van.soft.io.vn",
+    description: "Vietnamese literature exam preparation",
+    category: "learning",
+    tags: ["literature", "exam", "preparation"],
     featured: true,
   },
   {
