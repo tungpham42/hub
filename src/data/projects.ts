@@ -65,6 +65,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "hocviencotuong",
+    name: "Học Viện Cờ Tướng",
+    url: "https://hocvien.cotuong.top",
+    description: "Learn Chinese chess strategies",
+    category: "games",
+    tags: ["chess", "strategy", "education"],
+  },
+  {
     id: "xemboi",
     name: "Xem Bói",
     url: "https://boi.cotuong.top",
