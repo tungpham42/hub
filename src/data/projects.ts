@@ -242,6 +242,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "biendao",
+    name: "Biển đảo Việt Nam",
+    url: "https://biendao.soft.io.vn",
+    description: "Vietnamese islands and seas information",
+    category: "learning",
+    tags: ["vietnam", "islands", "seas"],
+  },
+  {
     id: "ielts",
     name: "IELTS Preparation",
     url: "https://ielts.soft.io.vn",
