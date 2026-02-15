@@ -141,6 +141,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "morse",
+    name: "Morse Code Converter",
+    url: "https://morse.soft.io.vn",
+    description: "Convert text to Morse code and vice versa",
+    category: "tools",
+    tags: ["morse", "converter", "communication"],
+  },
+  {
     id: "gsc",
     name: "Search Analyzer",
     url: "https://gsc.soft.io.vn",
