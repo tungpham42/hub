@@ -397,13 +397,21 @@ export const projects: Project[] = [
 
   // Lifestyle & Personal
   {
+    id: "love",
+    name: "Tư vấn tình yêu",
+    url: "https://love.soft.io.vn",
+    description: "Love and relationship advice",
+    category: "lifestyle",
+    tags: ["love", "relationship", "advice"],
+    featured: true,
+  },
+  {
     id: "thucdon",
     name: "Gợi ý món ăn",
     url: "https://thucdon.soft.io.vn",
     description: "Meal planner",
     category: "lifestyle",
     tags: ["meal", "dish", "food"],
-    featured: true,
   },
   {
     id: "qua",
