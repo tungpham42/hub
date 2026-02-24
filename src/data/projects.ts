@@ -242,7 +242,7 @@ export const projects: Project[] = [
   // Learning & Education
   {
     id: "hikari",
-    name: "Hikari Learning",
+    name: "Học tiếng Nhật",
     url: "https://hikarilearn.io.vn",
     description: "Japanese study library and resources",
     category: "learning",
