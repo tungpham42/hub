@@ -241,6 +241,15 @@ export const projects: Project[] = [
 
   // Learning & Education
   {
+    id: "hikari",
+    name: "Hikari Learning",
+    url: "https://hikarilearn.io.vn",
+    description: "Japanese study library and resources",
+    category: "learning",
+    tags: ["study", "japanese", "education"],
+    featured: true,
+  },
+  {
     id: "duhoc",
     name: "Du Học",
     url: "https://duhoc.soft.io.vn",
@@ -280,7 +289,6 @@ export const projects: Project[] = [
     description: "Vietnamese literature exam preparation",
     category: "learning",
     tags: ["literature", "exam", "preparation"],
-    featured: true,
   },
   {
     id: "laixe",
