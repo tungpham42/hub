@@ -132,6 +132,15 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "paste",
+    name: "Paste Tools",
+    url: "https://paste.soft.io.vn",
+    description: "Paste and text manipulation tools",
+    category: "tools",
+    tags: ["paste", "text", "utilities"],
+    featured: true,
+  },
+  {
     id: "chat",
     name: "Trợ lý Việt",
     url: "https://chat.soft.io.vn",
@@ -748,7 +757,6 @@ export const projects: Project[] = [
     description: "Freelancers' Assistant",
     category: "development",
     tags: ["freelancer", "job", "assistant"],
-    featured: true,
   },
   {
     id: "vibe",
