@@ -250,6 +250,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "casio",
+    name: "Casio Calculator",
+    url: "https://casio.soft.io.vn",
+    description: "Casio calculator and scientific tools",
+    category: "learning",
+    tags: ["calculator", "scientific", "tools"],
+  },
+  {
     id: "duhoc",
     name: "Du Học",
     url: "https://duhoc.soft.io.vn",
