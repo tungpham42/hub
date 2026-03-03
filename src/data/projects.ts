@@ -150,6 +150,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "prompt",
+    name: "Prompt Studio",
+    url: "https://prompt.soft.io.vn",
+    description: "AI prompt assistant",
+    category: "tools",
+    tags: ["ai", "prompt", "assistant"],
+  },
+  {
     id: "morse",
     name: "Morse Code Converter",
     url: "https://morse.soft.io.vn",
