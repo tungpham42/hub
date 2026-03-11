@@ -48,6 +48,14 @@ export const categories: Category[] = [
 export const projects: Project[] = [
   // Games & Entertainment
   {
+    id: "sudoku",
+    name: "Sudoku Game",
+    url: "https://sudoku.soft.io.vn",
+    description: "Classic Sudoku puzzle game",
+    category: "games",
+    tags: ["puzzle", "game", "numbers"],
+  },
+  {
     id: "2048",
     name: "2048 Game",
     url: "https://2048.soft.io.vn",
