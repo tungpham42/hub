@@ -56,6 +56,14 @@ export const projects: Project[] = [
     tags: ["puzzle", "game", "numbers"],
   },
   {
+    id: "meme",
+    name: "Meme Hub",
+    url: "https://meme.soft.io.vn",
+    description: "Create and share memes",
+    category: "games",
+    tags: ["memes", "fun", "social"],
+  },
+  {
     id: "2048",
     name: "2048 Game",
     url: "https://2048.soft.io.vn",
