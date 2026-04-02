@@ -838,4 +838,12 @@ export const projects: Project[] = [
     category: "development",
     tags: ["images", "editing", "tools"],
   },
+  {
+    id: "keyword",
+    name: "Keyword Planner",
+    url: "https://keyword.soft.io.vn",
+    description: "Keyword research and analysis",
+    category: "development",
+    tags: ["keywords", "research", "analysis"],
+  },
 ];
