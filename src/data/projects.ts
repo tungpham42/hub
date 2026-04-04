@@ -839,6 +839,14 @@ export const projects: Project[] = [
     tags: ["images", "editing", "tools"],
   },
   {
+    id: "wireframe",
+    name: "Wireframe Builder",
+    url: "https://wireframe.soft.io.vn",
+    description: "Wireframing and prototyping tools",
+    category: "development",
+    tags: ["wireframe", "prototyping", "design"],
+  },
+  {
     id: "keyword",
     name: "Keyword Planner",
     url: "https://keyword.soft.io.vn",
