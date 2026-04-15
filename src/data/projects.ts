@@ -62,6 +62,7 @@ export const projects: Project[] = [
     description: "Create and share funny content",
     category: "games",
     tags: ["fun", "social", "humor"],
+    featured: true,
   },
   {
     id: "meme",
@@ -146,15 +147,6 @@ export const projects: Project[] = [
   },
 
   // Utilities & Tools
-  {
-    id: "color",
-    name: "Color Tools",
-    url: "https://color.soft.io.vn",
-    description: "Color palette generator and tools",
-    category: "tools",
-    tags: ["design", "colors", "palette"],
-    featured: true,
-  },
   {
     id: "paste",
     name: "Paste Tools",
