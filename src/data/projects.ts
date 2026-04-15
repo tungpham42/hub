@@ -48,6 +48,15 @@ export const categories: Category[] = [
 export const projects: Project[] = [
   // Games & Entertainment
   {
+    id: "cotuong",
+    name: "Cờ Tướng",
+    url: "https://cotuong.top",
+    description: "Chinese chess game",
+    category: "games",
+    tags: ["chess", "strategy", "boardgame"],
+    featured: true,
+  },
+  {
     id: "sudoku",
     name: "Sudoku Game",
     url: "https://sudoku.soft.io.vn",
@@ -79,15 +88,6 @@ export const projects: Project[] = [
     description: "Popular sliding puzzle game",
     category: "games",
     tags: ["puzzle", "game", "numbers"],
-  },
-  {
-    id: "cotuong",
-    name: "Cờ Tướng",
-    url: "https://cotuong.top",
-    description: "Chinese chess game",
-    category: "games",
-    tags: ["chess", "strategy", "boardgame"],
-    featured: true,
   },
   {
     id: "hocviencotuong",
