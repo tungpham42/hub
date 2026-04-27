@@ -57,6 +57,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "coup",
+    name: "Cờ Úp",
+    url: "https://coup.cotuong.top",
+    description: "Dark Xiangqi game",
+    category: "games",
+    tags: ["chess", "strategy", "boardgame"],
+  },
+  {
     id: "sudoku",
     name: "Sudoku Game",
     url: "https://sudoku.soft.io.vn",
