@@ -146,6 +146,14 @@ export const projects: Project[] = [
     tags: ["children", "quiz", "game"],
   },
   {
+    id: "bird",
+    name: "Softy Bird",
+    url: "https://bird.soft.io.vn",
+    description: "Flappy Bird style game",
+    category: "games",
+    tags: ["flappy", "bird", "game"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
