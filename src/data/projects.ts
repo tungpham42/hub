@@ -463,6 +463,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "suckhoe",
+    name: "Sức Khỏe",
+    url: "https://suckhoe.soft.io.vn",
+    description: "Health and wellness resources",
+    category: "lifestyle",
+    tags: ["health", "wellness", "fitness"],
+  },
+  {
     id: "thucdon",
     name: "Gợi ý món ăn",
     url: "https://thucdon.soft.io.vn",
