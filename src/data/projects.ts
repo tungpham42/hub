@@ -154,6 +154,14 @@ export const projects: Project[] = [
     tags: ["flappy", "bird", "game"],
   },
   {
+    id: "fish",
+    name: "Softy Fish",
+    url: "https://fish.soft.io.vn",
+    description: "Fish and Thorns game",
+    category: "games",
+    tags: ["fish", "thorns", "game"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
