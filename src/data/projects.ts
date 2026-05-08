@@ -807,6 +807,14 @@ export const projects: Project[] = [
 
   // Development & Tech
   {
+    id: "test",
+    name: "TDD Guideline Generator",
+    url: "https://test.soft.io.vn",
+    description: "Test-Driven Development guideline generator",
+    category: "development",
+    tags: ["test", "tdd", "development", "guidelines"],
+  },
+  {
     id: "freelance",
     name: "Freelancer Flow",
     url: "https://freelance.soft.io.vn",
