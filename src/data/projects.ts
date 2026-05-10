@@ -162,6 +162,14 @@ export const projects: Project[] = [
     tags: ["fish", "thorns", "game"],
   },
   {
+    id: "td",
+    name: "Softy Defenders",
+    url: "https://td.soft.io.vn",
+    description: "Tower defense game",
+    category: "games",
+    tags: ["tower", "defense", "game"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
