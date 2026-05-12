@@ -323,6 +323,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "sql",
+    name: "SQL Mastery",
+    url: "https://sql.soft.io.vn",
+    description: "Learn SQL with interactive exercises",
+    category: "learning",
+    tags: ["sql", "database", "learning"],
+  },
+  {
     id: "casio",
     name: "Casio Calculator",
     url: "https://casio.soft.io.vn",
