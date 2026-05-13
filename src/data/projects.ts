@@ -331,6 +331,14 @@ export const projects: Project[] = [
     tags: ["sql", "database", "learning"],
   },
   {
+    id: "python",
+    name: "PyCourse",
+    url: "https://python.soft.io.vn",
+    description: "Learn Python with interactive exercises",
+    category: "learning",
+    tags: ["python", "programming", "learning"],
+  },
+  {
     id: "casio",
     name: "Casio Calculator",
     url: "https://casio.soft.io.vn",
