@@ -170,6 +170,14 @@ export const projects: Project[] = [
     tags: ["racing", "game"],
   },
   {
+    id: "snake",
+    name: "Softy Snake",
+    url: "https://snake.soft.io.vn",
+    description: "Classic snake game",
+    category: "games",
+    tags: ["snake", "classic", "game"],
+  },
+  {
     id: "td",
     name: "Softy Defenders",
     url: "https://td.soft.io.vn",
