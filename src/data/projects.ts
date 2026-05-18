@@ -339,6 +339,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "scrum",
+    name: "Scrum Master",
+    url: "https://scrum.soft.io.vn",
+    description: "Learn Scrum with interactive exercises",
+    category: "learning",
+    tags: ["scrum", "agile", "learning"],
+  },
+  {
     id: "sql",
     name: "SQL Mastery",
     url: "https://sql.soft.io.vn",
