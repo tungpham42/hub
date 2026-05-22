@@ -222,6 +222,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "idm",
+    name: "SOFT IDM",
+    url: "https://idm.soft.io.vn",
+    description: "Internet Download Manager",
+    category: "tools",
+    tags: ["download", "manager", "utilities"],
+  },
+  {
     id: "prompt",
     name: "Prompt Studio",
     url: "https://prompt.soft.io.vn",
