@@ -762,6 +762,14 @@ export const projects: Project[] = [
     tags: ["movies", "streaming", "video"],
   },
   {
+    id: "loop",
+    name: "SOFT Loop",
+    url: "https://loop.soft.io.vn",
+    description: "Youtube video looping",
+    category: "media",
+    tags: ["movies", "streaming", "video"],
+  },
+  {
     id: "monan",
     name: "Món Ngon",
     url: "https://monan.io.vn",
