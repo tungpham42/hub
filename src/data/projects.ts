@@ -222,6 +222,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "hoi",
+    name: "Gợi ý câu lệnh AI",
+    url: "https://hoi.soft.io.vn",
+    description: "AI-powered command suggestion tool",
+    category: "tools",
+    tags: ["ai", "commands", "suggestion"],
+  },
+  {
     id: "idm",
     name: "SOFT IDM",
     url: "https://idm.soft.io.vn",
