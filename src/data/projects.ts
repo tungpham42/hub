@@ -333,7 +333,6 @@ export const projects: Project[] = [
     description: "Build your dream PC with ease",
     category: "tools",
     tags: ["pc", "building", "guide"],
-    featured: true,
   },
   {
     id: "thoitiet",
@@ -345,6 +344,15 @@ export const projects: Project[] = [
   },
 
   // Learning & Education
+  {
+    id: "hoccotuong",
+    name: "Học cờ tướng",
+    url: "https://hoc.cotuong.top",
+    description: "Learn to play Chinese chess with interactive lessons",
+    category: "learning",
+    tags: ["chess", "learning", "games"],
+    featured: true,
+  },
   {
     id: "hikari",
     name: "Học tiếng Nhật",
