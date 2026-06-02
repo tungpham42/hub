@@ -371,6 +371,14 @@ export const projects: Project[] = [
     tags: ["scrum", "agile", "learning"],
   },
   {
+    id: "postman",
+    name: "Learn Postman",
+    url: "https://postman.soft.io.vn",
+    description: "API testing and development tools",
+    category: "learning",
+    tags: ["api", "testing", "development"],
+  },
+  {
     id: "sql",
     name: "SQL Mastery",
     url: "https://sql.soft.io.vn",
