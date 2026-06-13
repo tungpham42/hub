@@ -294,13 +294,21 @@ export const projects: Project[] = [
     tags: ["tools", "utilities", "collection"],
   },
   {
+    id: "time",
+    name: "SOFT Time",
+    url: "https://time.soft.io.vn",
+    description: "Timezone converter",
+    category: "tools",
+    tags: ["time", "timezone", "converter"],
+    featured: true,
+  },
+  {
     id: "timezone",
     name: "Timezone Converter",
     url: "https://timezone.soft.io.vn",
     description: "World timezone converter",
     category: "tools",
     tags: ["time", "timezone", "converter"],
-    featured: true,
   },
   {
     id: "srt",
