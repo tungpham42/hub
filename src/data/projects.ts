@@ -222,6 +222,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "map",
+    name: "Tìm tọa độ Việt Nam",
+    url: "https://bando.soft.io.vn",
+    description: "Find coordinates for Vietnam Addresses",
+    category: "tools",
+    tags: ["ai", "commands", "suggestion"],
+  },
+  {
     id: "hoi",
     name: "Gợi ý câu lệnh AI",
     url: "https://hoi.soft.io.vn",
