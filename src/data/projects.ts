@@ -194,6 +194,14 @@ export const projects: Project[] = [
     tags: ["tower", "defense", "game"],
   },
   {
+    id: "space",
+    name: "Softy Invasion",
+    url: "https://space.soft.io.vn",
+    description: "Space Invaders",
+    category: "games",
+    tags: ["space", "invasion", "game"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
