@@ -591,6 +591,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "age",
+    name: "How Old Am I?",
+    url: "https://age.soft.io.vn",
+    description: "Age guessing and related resources",
+    category: "lifestyle",
+    tags: ["age", "guess", "personal"],
+  },
+  {
     id: "suckhoe",
     name: "Sức Khỏe",
     url: "https://suckhoe.soft.io.vn",
