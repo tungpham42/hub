@@ -202,6 +202,14 @@ export const projects: Project[] = [
     tags: ["space", "invasion", "game"],
   },
   {
+    id: "tienlen",
+    name: "Tiến Lên Miền Nam",
+    url: "https://tienlen.soft.io.vn",
+    description: "Traditional Vietnamese card game",
+    category: "games",
+    tags: ["cards", "game", "traditional", "vietnamese"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
