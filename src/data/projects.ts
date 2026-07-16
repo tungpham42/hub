@@ -210,6 +210,14 @@ export const projects: Project[] = [
     tags: ["cards", "game", "traditional", "vietnamese"],
   },
   {
+    id: "pingpong",
+    name: "Ping Pong",
+    url: "https://pingpong.soft.io.vn",
+    description: "3D ping pong game",
+    category: "games",
+    tags: ["ping", "pong", "game"],
+  },
+  {
     id: "baucua",
     name: "Bầu Cua",
     url: "https://baucua.soft.io.vn",
