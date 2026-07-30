@@ -234,7 +234,6 @@ export const projects: Project[] = [
     description: "Paste and text manipulation tools",
     category: "tools",
     tags: ["paste", "text", "utilities"],
-    featured: true,
   },
   {
     id: "chat",
@@ -243,6 +242,15 @@ export const projects: Project[] = [
     description: "AI chat assistant for Vietnamese",
     category: "tools",
     tags: ["ai", "chat", "assistant", "vietnamese"],
+    featured: true,
+  },
+  {
+    id: "share",
+    name: "SOFTY Share",
+    url: "https://share.soft.io.vn",
+    description: "Web streaming app",
+    category: "tools",
+    tags: ["screen", "streaming", "video call"],
     featured: true,
   },
   {
