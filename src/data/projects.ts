@@ -236,6 +236,14 @@ export const projects: Project[] = [
     tags: ["paste", "text", "utilities"],
   },
   {
+    id: "pinyin",
+    name: "Pinyin IME",
+    url: "https://pinyin.soft.io.vn",
+    description: "Chinese Pinyin IME",
+    category: "tools",
+    tags: ["pinyin", "text", "ime"],
+  },
+  {
     id: "chat",
     name: "Trợ lý Việt",
     url: "https://chat.soft.io.vn",
