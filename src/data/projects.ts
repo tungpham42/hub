@@ -253,12 +253,12 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "share",
-    name: "SOFTY Share",
-    url: "https://share.soft.io.vn",
-    description: "Web streaming app",
+    id: "meet",
+    name: "SOFTY Meet",
+    url: "https://meet.soft.io.vn",
+    description: "Online meeting app",
     category: "tools",
-    tags: ["screen", "streaming", "video call"],
+    tags: ["screen", "meeting", "video call"],
     featured: true,
   },
   {
