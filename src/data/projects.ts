@@ -459,13 +459,21 @@ export const projects: Project[] = [
     tags: ["calculator", "scientific", "tools"],
   },
   {
+    id: "cook",
+    name: "Tung can cook",
+    url: "https://cook.soft.io.vn",
+    description: "Recipes sharing platform and cooking tips",
+    category: "learning",
+    tags: ["cooking", "recipes", "learning"],
+    featured: true,
+  },
+  {
     id: "duhoc",
     name: "Du Học",
     url: "https://duhoc.soft.io.vn",
     description: "Study abroad information and resources",
     category: "learning",
     tags: ["study", "abroad", "education"],
-    featured: true,
   },
   {
     id: "triet",
